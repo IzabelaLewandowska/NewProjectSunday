@@ -30,4 +30,12 @@ public class App {
         }
         return max;
     }
+
+    public static Double average (Integer [] numbers) {
+        Integer sum = 0;
+        for (Integer num : numbers) {
+            sum += num;
+        }
+        return (double) sum / numbers.length;
+    }
 }
